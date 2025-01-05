@@ -9,3 +9,26 @@
   height: 80vh;
 }
 
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  height: 80vh;
+  width: 100%;
+}
+
+#history-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  border: 1px solid wheat;
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.history-div{
+  width: 50px;
+  height: 25px;
+  margin: 5px;
+}
